@@ -1,0 +1,12 @@
+brainflow==4.9.0
+keyboard==0.13.5
+matplotlib==3.5.1
+numpy==1.22.3
+numpy-ringbuffer==0.2.1
+pandas==1.4.1
+PyAutoGUI==0.9.53
+pygame==2.1.2
+pylsl==1.15.0
+PyQt5==5.15.6
+ray==1.11.0
+scipy==1.8.0

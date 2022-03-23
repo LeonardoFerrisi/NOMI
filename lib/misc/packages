@@ -1,0 +1,17 @@
+brainflow
+numpy
+scipy
+PyQt5
+setuptools
+pyqt-tools
+pyqtgraph
+PyAutoGUI
+pandas
+matplotlib
+mne
+keyboard
+ray
+pylsl
+pyaudio
+pygame
+numpy_ringbuffer
