@@ -1,6 +1,6 @@
 # NOMI
 
-![logo](https://raw.githubusercontent.com/LeonardoFerrisi/NOMI/logo.png)
+![logo](https://github.com/LeonardoFerrisi/NOMI/blob/main/logo.png)
 
 Neurally Operated Musical Instrument
 
