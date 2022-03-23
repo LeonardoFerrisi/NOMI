@@ -14,4 +14,4 @@ To run:
 There is a basic GUI which can be used by running run.py.
 Alterantively, feel free to edit the bottom of music_maker.py and running music_maker.py to your specifications
 
-######### NOMI v0.1 was initially built as a hackathon project for the NATHACKS 2021 Hackathon
+### NOMI v0.1 was initially built as a collabrative hackathon project for the NATHACKS 2021 Hackathon
