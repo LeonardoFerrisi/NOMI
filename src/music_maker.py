@@ -1,5 +1,5 @@
 #########################################
-# NOMI Version 0.5                      #
+# NOMI Version 1.4                      #
 # Neurally Operated Musical Instrument  #
 #########################################
 
