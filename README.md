@@ -16,22 +16,22 @@ In order to run NOMI, right now there is a demo script, `NOMI.py` available in s
 
 To run NOMI under the desired conditions, in a terminal create a python virtual environment using:
 
-`python -m venv .<your virual environment name>`
+    python -m venv .<your virual environment name>
 
 Then, once the environment has been setup, if you are on Windows activate using:
 
-`.<your virtual environment name>\Scripts\activate`
+    .<your virtual environment name>\Scripts\activate
 
 and if you are on MacOS or Linux us
 
-`source <your virtual environment name>\bin\activate`
+    source <your virtual environment name>\bin\activate
 
 #### Installing dependencies
 
 Now that you are in your virtual environment (*Your console should have a `(<your virtual environment name>)` flag at the start of each new line*),
 you can install the dependencies using:
 
-`pip install -r requirements.txt`
+    pip install -r requirements.txt
 
 Let the process finish and you should be all set to run without errors
 
@@ -39,7 +39,7 @@ Let the process finish and you should be all set to run without errors
 
 Run using:
 
-`python NOMI.py`
+    python NOMI.py
 
 #### Whats next?
 
