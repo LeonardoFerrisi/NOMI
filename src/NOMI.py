@@ -80,6 +80,8 @@ class NOMI:
                 self.connect_cyton(serial_port=serial_port)
             else:
                 raise TypeError("Expected Serial Port, but got '' ")
+        else:
+            self.connect_synth()
 
         print(f"Board {board} connected")
 
@@ -92,6 +94,14 @@ class NOMI:
         BoardShim.enable_board_logger()
         DataFilter.enable_data_logger()
         MLModel.enable_ml_logger()
+
+    def connect_synth(self):
+        params = BrainFlowInputParams ()
+        self.board = BoardShim(BoardIds.SYNTHETIC_BOARD.value, params)
+        self.master_board_id = self.board.get_board_id ()
+        self.sampling_rate = BoardShim.get_sampling_rate (self.master_board_id)
+        self.board.prepare_session ()
+        self.connected = True
 
     def connect_muse(self):
         params = BrainFlowInputParams ()
