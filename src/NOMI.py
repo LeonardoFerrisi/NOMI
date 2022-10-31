@@ -6,7 +6,7 @@ from brainflow.ml_model import MLModel, BrainFlowMetrics, BrainFlowClassifiers, 
 from brainflow.exit_codes import *
 import numpy as np
 from pygame import mixer
-
+import time
 DIRNAME = os.path.dirname(__file__)
 
 class NOMI:
@@ -24,8 +24,7 @@ class NOMI:
 
     def play(self):
         self.perform_preflight(self.boardID, self.serial_port)
-        self.start_stream()
-
+        time.sleep(3)
         while True:
             self.get_focus_val()
 
